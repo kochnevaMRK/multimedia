@@ -15,25 +15,25 @@ const fourPDF = document.getElementById("4-part");
 one.addEventListener('click', () => {
     slideUp();
     document.getElementById("PDFwrap").innerHTML = `<iframe src="pdf/Раздел 1.pdf" style="width: 100%;height: 100%;border: none;"></iframe>`;
-    onePDF.style.backgroundColor = `rgb(164 231 121)`;
+    onePDF.style.backgroundColor = `#b1e2a1`;
 })
 
 two.addEventListener('click', () => {
     slideUp();
     document.getElementById("PDFwrap").innerHTML = `<iframe src="pdf/Раздел 2.pdf" style="width: 100%;height: 100%;border: none;"></iframe>`;
-    twoPDF.style.backgroundColor = `rgb(164 231 121)`;
+    twoPDF.style.backgroundColor = `#b1e2a1`;
 })
 
 three.addEventListener('click', () => {
     slideUp();
     document.getElementById("PDFwrap").innerHTML = `<iframe src="pdf/Раздел 3.pdf" style="width: 100%;height: 100%;border: none;"></iframe>`;
-    threePDF.style.backgroundColor = `rgb(164 231 121)`;
+    threePDF.style.backgroundColor = `#b1e2a1`;
 })
 
 four.addEventListener('click', () => {
     slideUp();
     document.getElementById("PDFwrap").innerHTML = `<iframe src="pdf/Раздел 4.pdf" style="width: 100%;height: 100%;border: none;"></iframe>`;
-    fourPDF.style.backgroundColor = `rgb(164 231 121)`;
+    fourPDF.style.backgroundColor = `#b1e2a1`;
 })
 
 function clear () {
@@ -46,23 +46,23 @@ function clear () {
 onePDF.addEventListener('click', () => {
     document.getElementById("PDFwrap").innerHTML = `<iframe src="pdf/Раздел 1.pdf" style="width: 100%;height: 100%;border: none;"></iframe>`;
     clear();
-    onePDF.style.backgroundColor = `rgb(164 231 121)`;
+    onePDF.style.backgroundColor = `#b1e2a1`;
 })
 
 twoPDF.addEventListener('click', () => {
     document.getElementById("PDFwrap").innerHTML = `<iframe src="pdf/Раздел 2.pdf" style="width: 100%;height: 100%;border: none;"></iframe>`;
     clear();
-    twoPDF.style.backgroundColor = `rgb(164 231 121)`;
+    twoPDF.style.backgroundColor = `#b1e2a1`;
 })
 
 threePDF.addEventListener('click', () => {
     document.getElementById("PDFwrap").innerHTML = `<iframe src="pdf/Раздел 3.pdf" style="width: 100%;height: 100%;border: none;"></iframe>`;
     clear();
-    threePDF.style.backgroundColor = `rgb(164 231 121)`;
+    threePDF.style.backgroundColor = `#b1e2a1`;
 })
 
 fourPDF.addEventListener('click', () => {
     document.getElementById("PDFwrap").innerHTML = `<iframe src="pdf/Раздел 4.pdf" style="width: 100%;height: 100%;border: none;"></iframe>`;
     clear();
-    fourPDF.style.backgroundColor = `rgb(164 231 121)`;
+    fourPDF.style.backgroundColor = `#b1e2a1`;
 })
