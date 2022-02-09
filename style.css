@@ -249,9 +249,9 @@ header {
     border-bottom: 1px solid #424242;
 }
 
-.link-item:hover {
+/* .link-item:hover {
     background-color: #42885c34;
-}
+} */
 
 .link-item:hover {
     letter-spacing: 1px;
